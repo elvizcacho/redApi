@@ -1,0 +1,642 @@
+GET http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T041011.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T040954.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T040945.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T040943.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T040914.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T040009.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T040004.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T035952.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T024846.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T024718.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024712.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/2/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024709.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024654.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T024646.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/1/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024637.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024456.404.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/1/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024355.404.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is child comment"
+}
+
+<> 2018-11-05T024343.404.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/1/comments
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T024148.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T024134.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024129.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024125.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T024120.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024055.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024033.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T024013.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T023829.500.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T023820.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T015006.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T014823.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T014819.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T014815.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T014810.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T014805.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T014756.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T014423.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is another comment"
+}
+
+<> 2018-11-05T014419.200.json
+
+###
+
+GET http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-11-05T014408.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T014358.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T014354.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T014202.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T013858.500.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T011155.200.json
+
+###
+
+POST http://localhost:8080/posts/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "upvotes": 5500,
+  "title": "Google Fires Ph.D Biologist/Engineer For Claiming -- On average, men and women biologically differ in many ways. ",
+  "category": "Culture",
+  "author": "M_Justice",
+  "subreddit": "/r/TheRedPill",
+  "date": "2017-08-07T22:00:00.000Z",
+  "content": "asdasdsad "
+}
+
+<> 2018-11-05T011138.200.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T011138.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T010827.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T010610.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T010223.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T010200.500.json
+
+###
+
+POST http://localhost:8080/posts/1/comments/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "content": "This is a comment"
+}
+
+<> 2018-11-05T010108.500.json
+
+###
+

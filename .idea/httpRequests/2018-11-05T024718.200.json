@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "content": "This is another comment"
+  },
+  {
+    "id": 3,
+    "content": "This is another comment"
+  },
+  {
+    "id": 5,
+    "content": "This is another comment"
+  },
+  {
+    "id": 6,
+    "content": "This is child comment"
+  },
+  {
+    "id": 7,
+    "content": "This is child comment"
+  }
+]
