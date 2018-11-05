@@ -1,7 +1,0 @@
-{
-  "timestamp": "2018-11-05T13:46:37.786+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "No value present",
-  "path": "/posts/1/comments/1/comments"
-}
