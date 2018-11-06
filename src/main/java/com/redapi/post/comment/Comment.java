@@ -29,6 +29,10 @@ public class Comment {
 
     private String content;
 
+    private String author;
+
+    private Integer points;
+
     public Integer getId() { return id; }
 
     public void setId(Integer id) { this.id = id; }
@@ -45,4 +49,11 @@ public class Comment {
 
     public void setParentComment(Comment parentComment) { this.parentComment = parentComment; }
 
+    public String getAuthor() { return author; }
+
+    public void setAuthor(String author) { this.author = author; }
+
+    public Integer getPoints() { return points; }
+
+    public void setPoints(Integer points) { this.points = points; }
 }
